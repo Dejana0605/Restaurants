@@ -1,0 +1,20 @@
+<nav class="navbar navbar-default navbar-fixed-side">
+	<div class="navbar-header">
+    	<a class="navbar-brand" ui-sref="main.homepage">The Dining Room</a>
+    </div>
+    <ul class="nav navbar-nav">
+    	<li><a ui-sref="main.homepage">Home</a></li>
+    	<li class="dropdown-open">
+    		<a ng-href class="dropdown-toggle">Restaurants</a>
+    		<ul class="dropdown-menu"><li><a ui-sref="main.restaurants({cuisine:''})">All</a></li>
+				<li><a ui-sref="main.restaurants({cuisine:'german'})">German</a></li>
+            	<li><a ui-sref="main.restaurants({cuisine:'chinese'})">Chinese</a></li>
+            	<li><a ui-sref="main.restaurants({cuisine:'american'})">American</a></li>
+            	<li><a ui-sref="main.restaurants({cuisine:'indian'})">Indian</a></li>
+            	<li><a ui-sref="main.restaurants({cuisine:'pizza'})">Pizza</a></li>
+            	<li><a ui-sref="main.restaurants({cuisine:'vegetarian'})">Vegeterian</a></li>
+      		</ul>
+  		</li>
+	    <li><a ui-sref="main.about">About</a></li>
+	</ul>
+</nav>

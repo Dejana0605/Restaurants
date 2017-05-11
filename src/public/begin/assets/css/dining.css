@@ -1,0 +1,66 @@
+.gray {
+	background-color: #ffdab3;
+}
+
+.light-gray {
+	background-color: #ffdab3;
+	height: 500px;
+}
+
+.margin-search {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.brown{
+	color: #4d2800;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 2;
+    color: #4d2800;
+    cursor: default;
+    background-color: #ffe6cc;
+    border-color: #ffe6cc;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    z-index: 3;
+    color:  #4d2800;
+    background-color: #eee;
+    border-color: #ddd;
+}
+.pagination > li > a{
+	color:  #4d2800;
+}
+.pagination > li > a:hover{
+	background-color:   #ffe6cc;
+}
+
+.light{
+	color: #ffd9b3;
+}
+.side{
+	width: 50%;
+	margin-left: 40%;
+	text-align: center;
+	padding: 1em;
+	background-color: #ffd9b3;
+
+}
+.big{
+	padding: 2em;
+}
+.expl{
+	width: 60%;
+	background-color: #ffd9b3;
+	text-align: center;
+	float: right;
+	padding: 1em;
+}
+.mail{
+	color: #4d2800;
+	padding: 2em;
+	float: left;
+	width: 50%;
+	margin: 2em;
+	background-color: #ffd9b3
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Dining Room</title>
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/navbar-fixed-side.css" rel="stylesheet">
+	<link href="assets/css/dining.css" rel="stylesheet">
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+	<link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
+	<script type="text/javascript" src="assets/js/angular.js"></script>
+	<script type="text/javascript" src="assets/js/angular-ui-router.js"></script>
+	<script type="text/javascript" src="assets/js/ui-bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/ui-bootstrap-tpls.js"></script>
+
+	<script type="text/javascript" src="app/app.module.js"></script>
+
+	<script type="text/javascript" src="app/components/core/core.module.js"></script>
+	<script type="text/javascript" src="app/components/core/core.route.js"></script>
+
+	<script type="text/javascript" src= "app/components/restaurants/restaurant.module.js"></script>
+	<script type="text/javascript" src= "app/components/restaurants/restaurant.service.js"></script>
+	<script type="text/javascript" src="app/components/restaurants/restaurant.route.js"></script>
+	<script type="text/javascript" src="app/components/restaurants/restaurant-list.controller.js"></script>
+	<script type="text/javascript" src="app/components/restaurants/menu.controller.js"></script>
+	<script type="text/javascript" src="app/components/restaurants/rating.directive.js"></script>
+
+</head>
+<body ng-app="dining-room">
+	<div class="container-fluid">
+		<div class="row" ui-view="header"></div>
+		<div class="row">
+			<div class="col-sm-2 light-gray" ui-view="sidebar"></div>
+			<div class="col-sm-10" ui-view="content"></div>
+		</div>
+	</div>
+</body>
+</html>
